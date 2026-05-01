@@ -21,7 +21,7 @@ app.add_middleware(
 )
 
 # Paths
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / 'data' / 'processed'
 
 # Utility Loader
