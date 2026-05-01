@@ -1,0 +1,81 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.assign/
+assign/
+
+# =========================
+# Pytest
+# =========================
+.pytest_cache/
+.cache/
+.coverage
+htmlcov/
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Data (IMPORTANT for your project)
+# =========================
+backend/data/raw/
+backend/data/processed/
+data/raw/
+data/processed/
+
+# Keep folder structure but ignore generated CSVs
+*.csv
+assign/
+
+
+# =========================
+# FastAPI / Uvicorn
+# =========================
+*.pid
+
+# =========================
+# Frontend (optional if static only)
+# =========================
+node_modules/
+dist/
+
+# =========================
+# Docker (optional cleanup)
+# =========================
+*.tar
+docker-compose.override.yml
+
+# =========================
+# Jupyter (if ever used)
+# =========================
+.ipynb_checkpoints/
