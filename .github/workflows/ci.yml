@@ -23,6 +23,13 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+      - name: Generate raw data
+        run: python backend/scripts/generate_data.py
 
+      - name: Clean data
+        run: python backend/scripts/clean_data.py
+
+      - name: Analyze data
+        run: python backend/scripts/analyze.py
       - name: Run pytest
         run: pytest -v
