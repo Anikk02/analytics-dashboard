@@ -80,6 +80,8 @@ Simply open:
 frontend/index.html
 ```
 OR run using **Live Server** (VS Code recommended).
+![Dashboard](dashboard_image.png)
+![Dashboard](dashboard_image_top.png)
 
 ---
 
